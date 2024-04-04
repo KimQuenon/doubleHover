@@ -69,11 +69,13 @@
     background-image: url('/assets/images/qreative-agence-web-nivelles-hiwbi-2.webp');
     background-size: cover;
     transition: all 0.5s ease-in-out;
+    filter: grayscale(1)
 }
 
 .backgroundScale:hover::before {
     transform: scale(0.8);
     height:70%;
+    filter:grayscale(0)
 }
 
 .backgroundScale:hover .hiddenText {
